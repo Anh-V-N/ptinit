@@ -12,6 +12,8 @@ The script takes exactly 2 arguments from the user. The first argument can be ei
 
 # Example
 
-![screenshot 1](/screenshot/Screenshot from 2020-02-20 18-36-16.png)
-![screenshot 2](/screenshot/Screenshot from 2020-02-20 18-46-36.png)
+![screenshot 1](/screenshot/sc1.png)
+
+
+![screenshot 2](/screenshot/sc2.png)
 
