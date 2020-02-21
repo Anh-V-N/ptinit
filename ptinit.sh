@@ -43,6 +43,7 @@ ptinit () {
 	echo "[+]Tmux session for target $ip is ready"
 	echo "[+]Access it by:"
 	echo " tmux a -t $SESSION"
+	echo 
 }
 
 # Check the 2nd argument
