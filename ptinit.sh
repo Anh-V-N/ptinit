@@ -42,7 +42,7 @@ ptinit () {
 	cd ..
 	echo "[+]Tmux session for target $ip is ready"
 	echo "[+]Access it by:"
-	echo " tmux a -t $SESSION"
+	echo "tmux a -t $SESSION"
 	echo 
 }
 
