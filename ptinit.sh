@@ -31,7 +31,7 @@ ptinit () {
 	tmux select-window -t 1
 	tmux split-window -h
 	tmux send-key -t0 "sudo nmap -Pn -sU -v -oA udp $ip" Enter
-	tmux send-key -t1 "cd nmap; nmap -Pn -v -p- -sC -sV -oA alltcp $ip" ENTER
+	tmux send-key -t1 "cd nmap; nmap -Pn -v -p- --min-rate=1000 -T4 -oA alltcp $ip" ENTER
     # snmp-check 
 	tmux select-window -t 2
 	tmux send-key -t2 "snmp-check $ip" Enter
